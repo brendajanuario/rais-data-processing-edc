@@ -28,7 +28,7 @@ jobs:
         aws-region: "us-east-2"
     
     - name: IaC Apply
-      run: 
+      run: |
         cd infrastructure
         terraform init
         terraform validate
